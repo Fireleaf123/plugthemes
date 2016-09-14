@@ -1,0 +1,46 @@
+{
+    "room":                     "NCR",
+    "author":                   "NCR Community",
+    "css":                      "PUT CDN TO CSS FILE HERE",
+    "rules": {
+        "allowAutorespond":     true,
+        "allowAutowoot":        true,
+        "allowAutojoin":        true,
+        "allowAutograb":        true,
+        "allowSmartVote":       true,
+        "allowEmotes":          true,
+        "allowShowingMehs":     false,
+        "forceSmartVote":       false
+    },
+    "ccc": {
+        "admin":                null,
+        "ambassador":           null,
+        "host":                 null,
+        "cohost":               null,
+        "manager":              null,
+        "bouncer":              null,
+        "rdj":                  null,
+        "subscriber":           null,
+        "friend":               null,
+        "user":                 null
+    },
+    "images": {
+        "background":           null,
+        "playback":             null,
+        "admin":                null,
+        "ambassador":           null,
+        "host":                 null,
+        "cohost":               null,
+        "manager":              null,
+        "bouncer":             null,
+        "rdj":                  null,
+        "subscriber":           null
+    },
+    "autocomplete": [],
+    "emotes": {
+        "firelenny":            "http://i.imgur.com/jleilmo.gif",
+        "pantsu":               "http://i.imgur.com/pFbtK5l.png",
+        "petme":                "http://i.imgur.com/ZcXheej.gif",
+        "isla":                 "http://i.imgur.com/CTL9knY.png"
+    }
+}
