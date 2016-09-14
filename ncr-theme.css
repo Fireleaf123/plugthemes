@@ -116,7 +116,7 @@
 }
 #meh, #woot, #grab
 {
-        opacity:                0.6;
+        opacity:                0.9;
         -webkit-transition:     all 0.3s ease;
         -moz-transition:        all 0.3s ease;
         -o-transition:          all 0.3s ease;
@@ -134,3 +134,15 @@
 {
         opacity:                1;
 }	
+#dj-button .left
+{
+        background:             rgba(40,44,53,1) !important;
+}
+#dj-button
+{
+        opacity:                0.6;
+        -webkit-transition:     all 0.3s ease;
+        -moz-transition:        all 0.3s ease;
+        -o-transition:          all 0.3s ease;
+        transition:             all 0.3s ease;
+}
