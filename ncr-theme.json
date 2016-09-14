@@ -1,7 +1,7 @@
 {
     "room":                     "NCR",
     "author":                   "NCR Community",
-    "css":                      "https://cdn.rawgit.com/Fireleaf123/plugthemes/master/ncr-theme.css",
+    "css":                      "https://rawgit.com/Fireleaf123/plugthemes/master/ncr-theme.css",
     "rules": {
         "allowAutorespond":     true,
         "allowAutowoot":        true,
