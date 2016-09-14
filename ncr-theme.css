@@ -24,6 +24,16 @@
 
 /* STAFF */
 
+
+/* NON-STAFF */
+
+/* DREKEN */
+#chat-messages .id-3632408 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/TU9MSYQ.gif');
+        background-size:        cover;
+}
+
 /* PixelBreeze */
 #chat-messages .id-196490 .badge-box i.bdg
 {
@@ -31,16 +41,6 @@
         background-size:        cover; 
         background-position:    initial;
         
-}
-
-/* NON-STAFF */
-
-/* DREKEN */
-
-#chat-messages .id-3632408 .badge-box i.bdg
-{
-        background-image:       url('http://i.imgur.com/TU9MSYQ.gif');
-        background-size:        cover;
 }
 
 
