@@ -146,3 +146,12 @@
         -o-transition:          all 0.3s ease;
         transition:             all 0.3s ease;
 }
+#chat .emote .text
+{
+        color:                  rgba(125, 96, 206, 1) !important;
+       font-weight:             bold !important;
+}
+#chat .emote .msg
+{
+        background:             rgba(45, 27, 97, 0.1) !important;
+}
