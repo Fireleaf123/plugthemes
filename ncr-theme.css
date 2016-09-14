@@ -1,1 +1,26 @@
-# plugthemes
+/********/
+/*BADGES*/
+/********/
+
+/* STAFF */
+
+/* PixelBreeze */
+#chat-messages .id-196490 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/DN9QbKe.gif');  /*http://i.imgur.com/flFtDDn.png */
+        background-size:        cover; 
+        background-position:    initial;
+        
+}
+
+/* NON-STAFF */
+
+/* DREKEN */
+
+#chat-messages .id-3632408 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/TU9MSYQ.gif');
+        background-size:        cover;
+}
+
+
