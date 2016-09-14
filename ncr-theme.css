@@ -1,4 +1,24 @@
 /********/
+/*Colours*/
+/********/
+
+.cm.role-dj .from .un, .role-dj .name
+{
+        color: #9999ff !important;
+}
+.cm.role-bouncer .from .un, .role-bouncer .name
+{
+        color: #0066ff !important;
+}
+.cm.role-manager .from .un, .role-manager .name
+{
+        color: #0000cc !important;
+}
+.cm.role-cohost .from .un, .role-cohost .name, .cm.role-host .from .un, .role-host .name
+{
+        color: #b300b3 !important;
+}
+/********/
 /*BADGES*/
 /********/
 
