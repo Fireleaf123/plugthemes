@@ -111,43 +111,26 @@
 }
 #vote {
 	opacity: 0.90;
-}
-#woot { 
-	border-radius: 100px 0 0 100px ;
-}
-#woot .bottom { 
-	border-radius: 0 0 0 100px;
-}
-#woot.selected, #woot .bottom, #woot.crowd-response.disabled.active .bottom {
-	background: linear-gradient(to top,#6FE514,rgba(74, 169, 0, 1) 100%);
-}
-#meh { 
-	border-radius: 0 100px 100px 0;
-}
-#meh .bottom { 
-	border-radius: 0 0 100px 0;
-}
-#meh.selected, #meh .bottom, #meh.crowd-response.disabled.active .bottom {
-	background: linear-gradient(to top,#EA2A2A,rgba(189, 0, 0, 1) 100%);
-}
-#grab.selected, #grab .bottom, #grab.crowd-response.disabled.active .bottom {
-	background: linear-gradient(to top,#AA74FE,rgba(102, 28, 217, 1) 100%);
-}
-#dj-button.is-wait, #dj-button.is-leave, #dj-button.is-quit, #dj-button.is-locked, #dj-button.is-full {
-	opacity: 0.85;
-}
-#dj-button, #dj-button.is-leave { 
-	border-radius: 100px 100px 100px 100px;
-	background: linear-gradient(to top,#3A3A3A,rgba(34, 34, 34, 1) 100%);
-}
-#dj-button .left {
-	border-radius: 100px 100px 100px 100px;
-	background: linear-gradient(to top,#14C0F3,rgba(0, 152, 196, 1) 100%);
-}
-#dj-button.is-leave .left {
-	background: linear-gradient(to top,#F3653D,rgba(228, 61, 13, 1) 100%);
-}
 .torch {
 	visibility: hidden;
 }
-	
+#meh, #woot, #grab
+{
+        opacity:                0.6;
+        -webkit-transition:     all 0.3s ease;
+        -moz-transition:        all 0.3s ease;
+        -o-transition:          all 0.3s ease;
+        transition:             all 0.3s ease;
+}
+#vote:hover > #woot, 
+#vote:hover > #grab, 
+#vote:hover > #meh
+{
+        opacity:                0.75;
+}
+#vote #woot:hover, 
+#vote #grab:hover, 
+#vote #meh:hover
+{
+        opacity:                1;
+}	
