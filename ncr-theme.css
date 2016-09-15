@@ -82,25 +82,29 @@
 /******/
 /*Room Theme*/
 /******/
-#footer #header {
+#header {
+	background: linear-gradient(to bottom,rgba(0, 0, 0, 0.45) 0,rgba(0, 0, 0, 0.75) 100%);
+	color:#EFEFEF;
+}
+#footer {
 	background: linear-gradient(to bottom,rgba(0, 0, 0, 0.45) 0,rgba(0, 0, 0, 0.75) 100%);
 }
-#footer-user #header .info.showing .meta .bar .progress {
+#footer-user .info.showing .meta .bar .progress {
 	background:#2D9400;
 }
-#footer-user #header .info.showing .meta .level .label {
+#footer-user .info.showing .meta .level .label {
 	color:#EFEFEF;
 }
-#footer-user #header .info.showing .meta .level .value {
+#footer-user .info.showing .meta .level .value {
 	color:#EFEFEF;
 }
-#footer-user #header .info.is-staff.showing .name {
+#footer-user .info.is-staff.showing .name {
 	color: #0EB006;
 }
-#footer #header .shop-button {
+#footer .shop-button {
 	background: linear-gradient(to bottom,rgba(0, 0, 0, 0.45) 0,rgba(0, 0, 0, 0.75) 100%);
 }
-#footer-user #header .info.showing {
+#footer-user .info.showing {
 	background: linear-gradient(to bottom,rgba(0, 0, 0, 0.55) 0,rgba(0, 0, 0, 0.85) 100%);
 }
 #chat {
