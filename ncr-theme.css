@@ -4,7 +4,7 @@
 
 .cm.role-dj .from .un, .role-dj .name
 {
-        color: #9999ff !important;
+        color: #CC66ff !important;
 }
 .cm.role-bouncer .from .un, .role-bouncer .name
 {
@@ -12,11 +12,11 @@
 }
 .cm.role-manager .from .un, .role-manager .name
 {
-        color: #3333ff !important;
+        color: #CC66ff !important;
 }
 .cm.role-cohost .from .un, .role-cohost .name, .cm.role-host .from .un, .role-host .name
 {
-        color: #b300b3 !important;
+        color: #CC66ff !important;
 }
 /********/
 /*Color specifics*/
