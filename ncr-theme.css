@@ -82,7 +82,7 @@
 /******/
 /*Room Theme*/
 /******/
-#app-header {
+#app-header, #header-pannel-bar {
 	background: linear-gradient(to bottom,rgba(0, 0, 0, 0.45) 0,rgba(0, 0, 0, 0.75) 100%);
 	color:#EFEFEF;
 }
@@ -162,7 +162,7 @@
         -moz-transition:        all 0.3s ease;
         -o-transition:          all 0.3s ease;
         transition:             all 0.3s ease;
-        background: linear-gradient(to bottom,rgba(0, 0, 0, 0.55) 0,rgba(0, 0, 0, 0.85) 100%)
+        
 }
 #chat .emote .text
 {
