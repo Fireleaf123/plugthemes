@@ -90,7 +90,7 @@
 /******/
 #rs-skip-button {
 background: #EFEFEF !important;
-background: linear-gradient(to bottom,rgba(0, 0, 0, 0.45) 0,rgba(0, 0, 0, 0.75) 100%);
+background: linear-gradient(to bottom,rgba(0, 0, 0, 0.45) 0,rgba(0, 0, 0, 0.75) 0%);
 }
 #app-menu,#history-button, {
 	background: linear-gradient(to bottom,rgba(0, 0, 0, 0.45) 0,rgba(0, 0, 0, 0.75) 100%);
