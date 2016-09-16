@@ -34,6 +34,12 @@
         color:                  #80ffff !important;
         /*text-shadow:            0px 0px 1px #ac76ff, 0px 0px 5px #ac76ff, 0px 0px 15px #80ffff !important;*/
 }
+/*Rainzy*/
+[data-cid^="5422222-"].cm .msg .from .un, #user-lists .list.room .user.role-manager.id-5422222 .name
+{
+        color:                  #80ffff !important;
+        /*text-shadow:            0px 0px 1px #ac76ff, 0px 0px 5px #ac76ff, 0px 0px 15px #80ffff !important;*/
+}
 
 /********/
 /*BADGES*/
@@ -82,6 +88,10 @@
 /******/
 /*Room Theme*/
 /******/
+#app-menu,#history-button {
+	background: linear-gradient(to bottom,rgba(0, 0, 0, 0.45) 0,rgba(0, 0, 0, 0.75) 100%);
+	color:#EFEFEF;
+}
 .app-header {
 	background: linear-gradient(to bottom,rgba(0, 0, 0, 0.45) 0,rgba(0, 0, 0, 0.75) 100%);
 	color:#EFEFEF;
