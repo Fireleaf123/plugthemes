@@ -92,8 +92,7 @@
 background: rgb(3, 0, 7) !important;
 }
 #app-menu,#history-button, {
-	background: linear-gradient(to bottom,rgba(0, 0, 0, 0.45) 0,rgba(0, 0, 0, 0.75) 100%);
-	color:#EFEFEF;
+background: rgb(3, 0, 7) !important;
 }
 .app-header {
 	background: linear-gradient(to bottom,rgba(0, 0, 0, 0.45) 0,rgba(0, 0, 0, 0.75) 100%);
