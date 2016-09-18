@@ -45,6 +45,11 @@
 {
         color: #7D0541 !important;
 }
+/*RubyChan*/
+[data-cid^="4638030-"].cm .msg .from .un, #user-lists .list.room .user.role-manager.id-4638030 .name
+{
+        color:                  #80ffff !important;
+}
 
 /********/
 /*BADGES*/
@@ -71,6 +76,19 @@
         background-image:       url('http://i.imgur.com/fp4tD9g.jpg');
         background-size:        cover; 
 }
+/* Rubychan */
+#chat-messages .id-4638030 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/boD2ISK.png');
+        background-size:        cover; 
+}
+/* Kae */
+#chat-messages .id-5095763 .badge-box i.bdg
+{
+        background-image:       url('http://i.imgur.com/S7LIrHA.png');
+        background-size:        cover; 
+}
+
 
 /* NON-STAFF */
 
