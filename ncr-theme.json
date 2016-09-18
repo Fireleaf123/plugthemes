@@ -1,6 +1,6 @@
 {
     "room":                     "NCR",
-    "author":                   "NCR Community",
+    "author":                   "Mirajane [https://github.com/Fireleaf123]",
     "css":                      "https://rawgit.com/Fireleaf123/plugthemes/master/ncr-theme.css",
     "rules": {
         "allowAutorespond":     true,
@@ -9,7 +9,7 @@
         "allowAutograb":        true,
         "allowSmartVote":       true,
         "allowEmotes":          true,
-        "allowShowingMehs":     false,
+        "allowShowingMehs":     true,
         "forceSmartVote":       false
     },
     "ccc": {
