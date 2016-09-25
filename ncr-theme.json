@@ -38,9 +38,9 @@
     },
     "autocomplete": [],
     "emotes": {
-        "firelenny":            "http://i.imgur.com/jleilmo.gif",
-        "pantsu":               "http://i.imgur.com/pFbtK5l.png",
-        "petme":                "http://i.imgur.com/ZcXheej.gif",
-        "isla":                 "http://i.imgur.com/CTL9knY.png"
+        "firelenny":            "https://i.imgur.com/jleilmo.gif",
+        "pantsu":               "https://i.imgur.com/pFbtK5l.png",
+        "petme":                "https://i.imgur.com/ZcXheej.gif",
+        "isla":                 "https://i.imgur.com/CTL9knY.png"
     }
 }
