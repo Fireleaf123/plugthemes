@@ -112,11 +112,8 @@
 /*Room Theme*/
 /******/
 .room-background { top: 0 !imporant; }
-#rs-skip-button {
-background: linear-gradient(to bottom,rgba(0, 0, 0, 0.45) 0,rgba(0, 0, 0, 0.75) 100%) !important;
-}
-#app-menu,#history-button {
-background: linear-gradient(to bottom,rgba(0, 0, 0, 0.45) 0,rgba(0, 0, 0, 0.75) 100%);
+#app-menu,#history-button,#rs-skip-butto {
+background: linear-gradient(to bottom,rgba(0, 0, 0, 0.45) 0,rgba(0, 0, 0, 0.75) 100%); !important;
 }
 .app-header {
 	background: linear-gradient(to bottom,rgba(0, 0, 0, 0.45) 0,rgba(0, 0, 0, 0.75) 100%);
