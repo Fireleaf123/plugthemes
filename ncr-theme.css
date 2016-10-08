@@ -115,7 +115,7 @@
 	 top: 0px !important;
 }
 #rs-skip-button {
-	background: linear-gradient(to bottom,rgba(0, 0, 0, 0.45) 0,rgba(0, 0, 0, 0.75) 100%); !important;
+background: linear-gradient(to bottom,rgba(0, 0, 0, 0.45) 0,rgba(0, 0, 0, 0.75) 100%) !important;
 }
 #app-menu,#history-button {
 background: linear-gradient(to bottom,rgba(0, 0, 0, 0.45) 0,rgba(0, 0, 0, 0.75) 100%); !important;
