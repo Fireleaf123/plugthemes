@@ -104,9 +104,15 @@
 {
         background-image:       url('https://i.imgur.com/DN9QbKe.gif');
         background-size:        cover; 
-        background-position:    initial;
-        
+        background-position:    initial;        
 }
+/*KING OF THE NEKOS*/
+#chat-messages .id-5709071 .badge-box i.bdg
+{
+        background-image:       url('https://i.imgur.com/FDlRb5v.jpg');
+        background-size:        cover;
+}
+
 
 /******/
 /*Room Theme*/
