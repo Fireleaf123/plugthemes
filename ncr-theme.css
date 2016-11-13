@@ -44,7 +44,7 @@
 /*Special*/
 
 /*RagePunisher*/
-[data-cid^="16604827-"].cm .msg .from .un, #user-lists .list.room .user.role-host.id-16604827 .name
+[data-cid^="16604827-"].cm .msg .from .un, #user-lists .list.room .user .id-16604827 .name
 {
         color: rgb(0, 0, 0) !important;
         text-shadow: 0px 0px 1px #1ec503, 0px 0px 5px #00CC00, 2px 2px 10px #1ec503 !important;
