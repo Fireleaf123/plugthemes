@@ -4,19 +4,19 @@
 
 .cm.role-dj .from .un, .role-dj .name
 {
-        color: #CC66ff !important;
+        color: #0e2d3f !important;
 }
 .cm.role-bouncer .from .un, .role-bouncer .name
 {
-        color: #CC66ff !important;
+        color: #226491 !important;
 }
 .cm.role-manager .from .un, .role-manager .name
 {
-        color: #CC66ff !important;
+        color: #3761a3 !important;
 }
 .cm.role-cohost .from .un, .role-cohost .name, .cm.role-host .from .un, .role-host .name
 {
-        color: #CC66ff !important;
+        color: #505db9 !important;
 }
 /********/
 /*Color specifics*/
@@ -31,7 +31,7 @@
 /*Mirajane*/
 [data-cid^="3548097-"].cm .msg .from .un, #user-lists .list.room .user.role-manager.id-35480975 .name
 {
-        color:                  #80ffff !important;
+       /* color:                  #80ffff !important; */
         /*text-shadow:            0px 0px 1px #ac76ff, 0px 0px 5px #ac76ff, 0px 0px 15px #80ffff !important;*/
 }
 /*Rainzy*/
