@@ -117,6 +117,12 @@
 /******/
 /*Room Theme*/
 /******/
+background: #FFFFFF url(IMAGE_URL_HERE) no-repeat center center fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
 .room-background {
 	 top: 0px !important;
 }
