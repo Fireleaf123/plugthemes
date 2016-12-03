@@ -1,23 +1,13 @@
 /********/
-/*Colours*/
+/*Logo/Icon*/
 /********/
 
-.cm.role-dj .from .un, .role-dj .name
+#room-bar  i.icon.icon-room
 {
-        color: #CC66ff !important;
+	background-image:       url('https://i.imgur.com/xwJmFxP.png');
+        background-size:        cover; 
 }
-.cm.role-bouncer .from .un, .role-bouncer .name
-{
-        color: #CC66ff !important;
-}
-.cm.role-manager .from .un, .role-manager .name
-{
-        color: #CC66ff !important;
-}
-.cm.role-cohost .from .un, .role-cohost .name, .cm.role-host .from .un, .role-host .name
-{
-        color: #CC66ff !important;
-}
+
 /********/
 /*Color specifics*/
 /********/
@@ -49,6 +39,15 @@
 [data-cid^="4638030-"].cm .msg .from .un, #user-lists .list.room .user.role-manager.id-4638030 .name
 {
         color:                  #80ffff !important;
+}
+
+/*Special*/
+
+/*RagePunisher*/
+[data-cid^="16604827-"].cm .msg .from .un, #user-lists .list.room .user.id-16604827 .name
+{
+        color: rgb(0, 0, 0) !important;
+        text-shadow: 0px 0px 1px #1ec503, 0px 0px 5px #00CC00, 2px 2px 10px #1ec503 !important;
 }
 
 /********/
@@ -89,6 +88,14 @@
         background-size:        cover; 
 }
 
+/* Coding helpers :) */
+
+/* RagePunisher possible staff for coding, scripting etc */
+#chat-messages .id-16604827 .badge-box i.bdg
+{
+        background-image:       url('https://i.imgur.com/p2CLivt.png');
+        background-size:        contain; 
+}
 
 /* NON-STAFF */
 
@@ -217,4 +224,90 @@ background: linear-gradient(to bottom,rgba(0, 0, 0, 0.45) 0,rgba(0, 0, 0, 0.75) 
 #chat .emote .msg
 {
         background:             rgba(45, 27, 97, 0.1) !important;
+}
+
+/*****************************/
+/*ROLES + Default Role Colors*/
+/*****************************/
+
+.icon-chat-host + span {
+  color: #fdb913 !important;	/*Host Default Color*/
+}
+
+.icon-chat-cohost + span {
+  color: #fdb913 !important;	/*Co Host Default Color*/
+}
+
+.icon-chat-manager + span {
+  color: #006a44 !important;	/*Manager Default Color*/
+}
+
+.icon-chat-bouncer + span {
+  color: #c1272d !important;	/*Bouncer Default Color*/
+}
+
+.icon-chat-dj + span {
+  color: #6669ff !important;	/*Res DJ Default Color*/
+}
+
+.icon-chat-subscriber + span {
+  color: #dd7a44 !important;	/*Subscriber Default Color*/
+}
+
+.icon-chat-silver-subscriber + span {
+  color: #a1a6b3 !important;	/*Silver Subscriber Default Color*/
+}
+
+.cm.role-dj .from .un,
+.role-dj .name {
+  color: #6669ff !important;	/*Res DJ Color User List*/
+}
+
+.icon-chat-dj {
+  background: url("https://i.imgur.com/8gxWyP4.png") !important;	/*Res DJ Neko Icon*/	
+  /*background: url("https://i.imgur.com/EsEu6mi.png") !important;	Res DJ Icon*/
+  background-size: contain;	
+}
+
+.cm.role-bouncer .from .un,
+.role-bouncer .name {
+  color: #c1272d !important;	/*Bouncer Color User List*/
+}
+
+.icon-chat-bouncer {
+  background: url("https://i.imgur.com/dDTrbos.png");	/*Bouncer Icon*/
+  background-size: contain;	
+}
+
+.cm.role-manager .from .un,
+.role-manager .name {
+  color: #006a44 !important;	/*Manager User Color*/
+}
+
+.icon-chat-manager {
+  background: url("https://i.imgur.com/fPY5b4v.png");	/*Manager Icon*/
+  background-size: contain;	
+}
+
+.cm.role-cohost .from .un,
+.role-cohost .name,
+.cm.role-host .from .un,
+.role-host .name {
+  color: #fdb913 !important;	/*Host and Co Host User Color*/
+}
+
+.cm.is-subscriber:not(.silver) .from .un,
+.is-subscriber:not(.silver) .name {
+  color: #dd7a44 !important;	/*Subscriber User Color*/
+}
+
+.icon-chat-subscriber {
+  background: url("https://i.imgur.com/29t2aO8.png");	/*Subscriber Icon*/
+  background-size: contain;	
+}
+
+.icon-chat-cohost,
+.icon-chat-host {
+  background: url("https://i.imgur.com/xwJmFxP.png"); /*Host and Co Host Icon*/
+  background-size: contain;
 }
