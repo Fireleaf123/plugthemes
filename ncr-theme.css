@@ -4,19 +4,19 @@
 
 .cm.role-dj .from .un, .role-dj .name
 {
-        color: #0e2d3f !important;
+        color: #356b95 !important;
 }
 .cm.role-bouncer .from .un, .role-bouncer .name
 {
-        color: #226491 !important;
+        color: #4b85d1!important;
 }
 .cm.role-manager .from .un, .role-manager .name
 {
-        color: #3761a3 !important;
+        color: #4d68c8 !important;
 }
 .cm.role-cohost .from .un, .role-cohost .name, .cm.role-host .from .un, .role-host .name
 {
-        color: #505db9 !important;
+        color: #4e57c0 !important;
 }
 /********/
 /*Color specifics*/
